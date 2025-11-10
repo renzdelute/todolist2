@@ -168,7 +168,7 @@ function editTask(li) {
         const newLabel = document.createElement('label');
         newLabel.textContent = newText;
         newLabel.className = 'task-text';
-
+//test
         li.replaceChild(newLabel, input);
 
         if (checkbox.checked) {
